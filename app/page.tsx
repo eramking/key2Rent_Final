@@ -22,11 +22,12 @@ export default function Home() {
             </div>
             <div className="flex justify-center">
               <Image
-                src="/placeholder.svg?height=400&width=400"
-                alt="Moving service illustration"
-                width={400}
+                src="/movers-sofa.jpg"
+                alt="Professional movers carrying a sofa with a person sitting on it"
+                width={600}
                 height={400}
                 className="rounded-lg shadow-lg object-cover"
+                priority
               />
             </div>
           </div>

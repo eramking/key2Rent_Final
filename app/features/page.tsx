@@ -61,11 +61,12 @@ export default function Features() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
         <div className="order-2 md:order-1 flex justify-center">
           <Image
-            src="https://images.unsplash.com/photo-1600518464441-9306b00c4fe8?q=80&w=2070&auto=format&fit=crop"
-            alt="Professional Movers"
-            width={400}
-            height={300}
+            src="/professional-mover-boxes.jpg"
+            alt="Professional mover with moving boxes and hand truck"
+            width={500}
+            height={400}
             className="rounded-lg shadow-lg object-cover"
+            priority
           />
         </div>
         <div className="order-1 md:order-2">
